@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,37 +19,13 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am a passionate <b className="purple">Full-Stack Web Developer</b> with expertise in <b className="purple">Java (Spring Boot)</b> and <b className="purple">PHP (Laravel)</b>, dedicated to building robust and scalable web applications. With hands-on experience in frameworks such as <b className="purple">Angular</b>, <b className="purple">Livewire</b>, and <b className="purple">Tailwind CSS</b>, I strive to deliver clean, secure, and efficient code aligned with industry best practices.              <br />
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
+              Certified as an <b className="purple">Oracle Java SE 8 Associate</b> and <b className="purple">Java SE 17 Professional</b>, I have contributed to the development of business process platforms in both academic and enterprise environments. My experience includes<b className="purple"> REST/SOAP API</b> integration, microservices architecture, unit testing, bug fixing, and continuous deployment workflows.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+              Motivated, detail-oriented, and always eager to grow, I enjoy solving complex technical problems and developing impactful digital solutions that meet real-world needs.
               <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
